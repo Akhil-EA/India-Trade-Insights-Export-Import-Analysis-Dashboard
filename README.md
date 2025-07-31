@@ -1,10 +1,16 @@
 # India-Trade-Insights-Export-Import-Analysis-Dashboard
+
+
 This Power BI dashboard offers interactive insights into India's export and import trends. It visualizes trade value by country, commodity, and financial year. Data from India's Open Government Platform is cleaned, categorized in SQL Server, then presented in clear visuals.
 
 **The Problem**
+
+
 Global trade can be really confusing. There's a lot of raw information about exports and imports, scattered across many different tables and time periods. This makes it hard to see important patterns, find the biggest trading partners, or know which products are key. When you don't have a clear picture, it's tough to find new chances to grow, understand who you depend on for trade, or react quickly when trade situations change.
 
 **Methodology**
+
+
 Data Sourcing: The raw trade data was meticulously downloaded from the Open Government Data (OGD) Platform of India. This platform provides export and import data for various commodities.
 
 Data Storage & Transformation (SQL Server): The downloaded CSV files were then uploaded to a SQL Server database. A crucial step in this phase was the addition of a new Category column directly within SQL, based on the Units of the commodities. This transformation categorized diverse trade items into more manageable groups like "Large Bulk", "Liquid", "Parts", "Smaller Bulk", "Surface Area", and "Others". This categorization significantly enhances the analytical capabilities of the dashboard.
